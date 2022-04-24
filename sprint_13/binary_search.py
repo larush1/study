@@ -13,5 +13,5 @@ def binarySearch(arr, x, left, right):
 
 # изначально мы запускаем двоичный поиск на всей длине массива
 
-arr = [1, 3, 7, 9, 25, 194, 1345, 145675, 9859865968]
-print(binarySearch(arr, 98598659689, left=0, right=len(arr)))
+arr = [1, 3, 7, 9]
+print(binarySearch(arr, 3, left=0, right=len(arr)))
